@@ -1,0 +1,23 @@
+# Node build artifacts
+node_modules
+npm-debug.log
+
+# Babel
+dist
+
+# Local development
+*.env
+*.dev
+*.code-workspace
+.DS_Store
+desktop.ini
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Layered
+*.pdn
+*.psd
+*.ora
+*.xcf
