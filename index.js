@@ -18,6 +18,7 @@ bot.on("message", message => {
 pageParse()
 
 bot.startPolling()
+setTimeout(() => bot.stopPolling(), 15000)
 
 async function pageParse() {
     const response = await axios.get("http://zmrzlina.zmrzlina-starnov.cz/provozni-doba/index.html")
